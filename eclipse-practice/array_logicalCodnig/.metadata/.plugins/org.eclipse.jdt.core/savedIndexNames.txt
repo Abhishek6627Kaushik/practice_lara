@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+D:\Practice\eclipse-practice\array_logicalCodnig\.metadata\.plugins\org.eclipse.jdt.core
+4052045196.index
+1865797976.index
+4209084163.index
+349319756.index
+29116474.index

@@ -1,0 +1,5 @@
+package array_logical_coding;
+// Remove a variable by left shift by one
+public class RemoveAindexByLeftShiftbyOne {
+
+}

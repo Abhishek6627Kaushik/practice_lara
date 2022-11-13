@@ -1,0 +1,16 @@
+package inheritance_practice;
+
+public class Animal 
+{
+	int age ;
+	String color = "";
+
+		public static void main(String[] args) 
+		{
+			Animal buzo  = new Animal();
+			buzo.age = 10;
+			buzo.color = "Black";
+			
+			System.out.println(buzo.age + " , "+ buzo.color);
+		}
+}

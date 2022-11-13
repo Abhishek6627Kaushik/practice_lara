@@ -1,0 +1,35 @@
+package array_logical_coding;
+
+import java.util.Arrays;
+
+// Find Second Maxmimum of array
+public class FindSecondMaxOfArray
+{
+	public static void main(String[] args) 
+	{
+		int[] array =  {10 , 50 , 85 , 60 , 46 , 32 , 5 , 54};
+		//              0  , 1  , 2  , 3  , 4  , 5  , 6 , 7
+		int  first_max = Integer.MIN_VALUE;
+		int  second_max = Integer.MIN_VALUE;
+		int i= 0,l=0,j=0;
+		System.out.println(Arrays.toString(array));
+		
+		for ( i = 0; i < array.length; i++) 
+		{
+			if(array[i]>first_max)
+			{
+				second_max = first_max;
+				first_max = array[i];
+				j=i;
+				
+			}
+			else if (array[i]> second_max)
+			{
+				second_max = array[i];
+				l=i;
+			}
+		}
+		System.out.println("Second Max Value is "+ second_max+" and index location is "+l);
+		System.out.println("First Max Value is "+first_max+" and index location is "+j);
+	}
+}

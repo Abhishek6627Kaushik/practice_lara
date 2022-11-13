@@ -1,0 +1,25 @@
+// develop a sub class to A and override test method
+
+class A1
+{
+	A1 (int  i  , int j)
+	{
+		System.out.println("from a Constructor");
+	}
+	void test()
+	{
+		System.out.println("from A.test");
+	}
+}
+public class Q7 extends A
+{
+	Q7(int  i  , int j)
+	{
+		super(10 , 110);
+	}
+	void test()
+	{
+		System.out.println("from B test");
+	}
+	
+}

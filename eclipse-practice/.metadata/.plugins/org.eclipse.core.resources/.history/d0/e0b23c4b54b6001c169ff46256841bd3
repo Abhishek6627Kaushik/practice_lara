@@ -1,0 +1,13 @@
+package inheritance_practice;
+
+public class ConstrutorExamp 
+{
+	int  i ;
+	String s1 = "";
+	public static void main(String[] args) 
+	{
+		ConstrutorExamp  ce = new ConstrutorExamp();
+		ce.i =10;
+		System.out.println(" "+ce.i);
+	}
+}

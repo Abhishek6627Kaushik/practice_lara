@@ -1,0 +1,21 @@
+package inheritance_practice;
+
+public class Animal 
+{
+	int age ;
+	String color = "";
+
+	void buzo(int a , String s )
+	{
+		age = a;
+		color = s; 
+	}
+		public static void main(String[] args) 
+		{
+			Animal buzo  = new Animal();
+			buzo.age = 10;
+			buzo.color = "Black";// this is providing value by using object
+			
+			System.out.println(buzo.age + " , "+ buzo.color);
+		}
+}

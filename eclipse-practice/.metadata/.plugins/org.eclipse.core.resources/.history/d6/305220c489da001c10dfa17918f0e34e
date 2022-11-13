@@ -1,0 +1,11 @@
+package set2_app8;
+
+public class A
+{
+	public static void main(String[] args)
+	{
+		int i = 25
+		System.out.println(Integer.toBinaryString(i));
+		
+	}
+}

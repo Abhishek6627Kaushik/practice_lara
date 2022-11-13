@@ -1,0 +1,27 @@
+package app27ObjectAndRefranceVariables;
+
+public class B1 
+{
+	int i ;
+	double d;
+	
+	B1(int i)
+	{
+		this.i= i;
+	}
+	public static void main(String[] args) 
+	{
+		B1 b = new B1(19);
+		B1 b2 = b;
+		System.out.println(b.i);
+		System.out.println(b.d);
+		System.out.println(b2.i);
+		System.out.println(b2.d);
+		System.out.println("-----------");
+		
+		b.i= 10;
+		B1  b3 = b;
+		System.out.println(b3.i);
+		System.out.println(b3.d);
+	}
+}

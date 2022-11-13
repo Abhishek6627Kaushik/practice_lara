@@ -1,0 +1,12 @@
+package classroom;
+
+public class Z8praactice
+{
+	public static void main(String[] args) 
+	{
+		for (int i = ; i < args.length; i++) 
+		{
+			
+		}
+	}
+}

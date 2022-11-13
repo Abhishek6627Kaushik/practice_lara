@@ -1,0 +1,18 @@
+
+abstract class A
+{
+	A()
+	{
+		abstract void test();
+	}
+}
+
+public class Abs extends A
+{
+	
+	public static void main(String[] args) 
+	{
+		Abs a1 = new Abs();
+	
+	}
+}

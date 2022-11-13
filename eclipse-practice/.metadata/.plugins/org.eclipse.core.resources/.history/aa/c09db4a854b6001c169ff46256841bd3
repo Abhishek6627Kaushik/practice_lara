@@ -1,0 +1,12 @@
+package inheritance_practice;
+
+public class ConstrutorExamp 
+{
+	int salary ;
+	String name = "";
+	public static void main(String[] args) 
+	{
+		ConstrutorExamp  ce = new ConstrutorExamp();
+		System.out.println(" "+ce.salary+", "+ce.name);
+	}
+}

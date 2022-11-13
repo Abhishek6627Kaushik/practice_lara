@@ -1,0 +1,28 @@
+package inheritance;
+
+class C
+{
+	int i ;
+	static int  j;
+	
+	C()
+	{
+		System.out.println("i am cinstructor");
+	}
+	
+	static
+	{
+		System.out.println("i am Sib");
+	}
+	
+	
+	{
+		System.out.println("i am iib");
+	}
+	
+	
+}
+public class D 
+{
+	
+}

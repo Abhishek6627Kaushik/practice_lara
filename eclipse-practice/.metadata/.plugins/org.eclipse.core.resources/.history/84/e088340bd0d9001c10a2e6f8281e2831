@@ -1,0 +1,16 @@
+
+abstract class A2
+{
+	A2()
+	{
+		System.out.println("from A2 constructor");
+	}
+}
+public class Q8 extends A2
+{
+	Q8()
+	{
+		super();
+		System.out.println("from Q8 constrctor");
+	}
+}

@@ -1,0 +1,17 @@
+package string;
+
+public class Q1 
+{
+	public static void main(String[] args) 
+	{
+		StringBuffer = "hello World";
+		
+		
+		
+		for(int i =s.length(); i>0 ; i--)
+		{
+			St
+		}	
+		
+	}
+}

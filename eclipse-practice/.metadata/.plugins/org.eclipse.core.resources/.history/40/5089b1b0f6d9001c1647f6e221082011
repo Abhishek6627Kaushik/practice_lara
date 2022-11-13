@@ -1,0 +1,12 @@
+package byPdf;
+
+public class Q4 
+{
+	public static void main(String[] args)
+	{
+		for(char c = 'A' ; c<='E';i++)
+		{
+			System.out.println(" ");
+		}
+	}
+}

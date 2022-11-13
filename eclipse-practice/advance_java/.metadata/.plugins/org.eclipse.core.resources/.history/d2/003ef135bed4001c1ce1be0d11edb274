@@ -1,0 +1,15 @@
+package classroom;
+
+public class Z8praactice
+{
+	public static void main(String[] args) 
+	{
+		String s1 = "abc xyz hello";
+		int i = s1.indexOf(' ');
+		
+		for (int j = i; i<=i; i++) 
+		{
+			
+		}
+	}
+}

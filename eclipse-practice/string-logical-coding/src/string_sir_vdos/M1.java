@@ -1,0 +1,17 @@
+package string_sir_vdos;
+// find the length of an string
+public class M1 
+{
+	public static void main(String[] args) 
+	{
+		String s1 ="hello";
+		int i = s1.length();
+		
+		System.out.println(s1);
+		System.out.println(i);
+				
+	}
+}
+/*
+	in-case of string length is a method
+*/

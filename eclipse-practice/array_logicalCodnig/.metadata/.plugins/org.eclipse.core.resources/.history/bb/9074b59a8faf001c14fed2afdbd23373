@@ -1,0 +1,5 @@
+package array_logical_coding;
+//read first Half of an array in reverse wayu
+public class ReadFirstHalfOfAnArrayReverse {
+
+}

@@ -1,0 +1,20 @@
+package app27ObjectAndRefranceVariables;
+
+public class C 
+{
+	 static int i ;
+	
+	static void test1(C c1 , C c2)
+	{
+		System.out.println(c1 +":"+c2);
+
+	}
+	public static void main(String[] args)
+	{
+		C.i=100;
+		C.i=1002;
+		C c1 = new C();
+		
+		test1(C1 , C2);
+	}
+}

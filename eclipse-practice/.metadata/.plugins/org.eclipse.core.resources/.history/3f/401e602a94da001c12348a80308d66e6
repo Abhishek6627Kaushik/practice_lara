@@ -1,0 +1,9 @@
+package set2_app8;
+
+public class C {
+	public static void main(String[] args)
+	{
+		System.out.println("binary of 65 "+Integer.toBinaryString(65));
+	}
+
+}

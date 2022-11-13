@@ -1,0 +1,13 @@
+package array_logical_coding;
+
+import java.util.Arrays;
+
+public class Remove 
+{
+	public static void main(String[] args) 
+	{
+		int[] array =  {10 , 50 ,50,50,50, 85 , 85 ,85,85, 60 , 46 , 32 , 32 , 5 , 54};
+		
+		System.out.println(Arrays.toString(array));
+	}
+}

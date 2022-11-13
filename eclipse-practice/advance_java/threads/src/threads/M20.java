@@ -1,0 +1,27 @@
+package threads;
+
+class R extends Thread
+
+{
+	@Override
+	public void run() 
+	{
+		for (int i = 1; i <100; i++) 
+		{
+			System.out.println(i);
+		}
+	}
+}
+public class M20 
+{
+	public static void main(String[] args) 
+	{
+		R r1  = new R();
+		r1.setDaemon(true);
+		r1.start();
+		System.out.println("done");
+	}
+}
+/*
+when ever parents is execution stop then child  also stop
+*/

@@ -1,0 +1,11 @@
+package arry_logical;
+
+public class StringRev 
+{
+	public static void main(String[] args)
+	{
+		String s1 = "tech geek abhi";
+		
+	for(int i = s1.length()-1)
+	}
+}

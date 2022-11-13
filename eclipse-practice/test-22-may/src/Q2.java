@@ -1,0 +1,11 @@
+
+public class Q2
+{
+	public static void main(String[] args) 
+	{
+		int min = 18;
+		int max =20;
+		int k = min<max  ? min:max;
+		System.out.println(k);
+	}
+}

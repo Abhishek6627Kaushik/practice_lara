@@ -1,0 +1,22 @@
+// Write a program to find how many objects created to the current class
+public class Q6 
+{
+    Stati
+	
+    static 
+	{
+		count++;
+	}
+	public static void main(String[] args) 
+	{
+		Q6  a1 = new Q6();
+		Q6  a2 = new Q6();
+		Q6  a3 = new Q6();
+		Q6  a4 = new Q6();
+		Q6  a5 = new Q6();
+		System.out.println(a1.count);
+		System.out.println(a2.count);
+		System.out.println(a3.count);
+		System.out.println(a4.count);
+	}
+}

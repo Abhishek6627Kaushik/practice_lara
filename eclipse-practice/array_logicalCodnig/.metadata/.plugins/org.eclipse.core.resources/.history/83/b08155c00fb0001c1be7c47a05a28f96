@@ -1,0 +1,34 @@
+package arry_logical;
+import java.util.Arrays;
+public class M32 {
+
+	
+
+	// Remove duplicate
+		public static void main(String[] args) 
+		{
+			int[] array = {2,5,8,9,8,5,2,9,10};
+			System.out.println(Arrays.toString(array));
+			
+				for (int i = 0; i<array.length;i++)
+				{
+					for (int j = i+1; j<array.length; j++)
+					{
+						if (array[i] == array[j])
+						{
+							
+							for (int k = j; k<array.length-1;k++)// this logic for consider elements one by one
+							{
+								array[k] = array [k+1];
+								System.out.print(array[i]);
+							}
+						}
+					}
+					
+				}
+				//System.out.println(Arrays.toString(array));
+				
+		}
+	}
+
+

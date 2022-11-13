@@ -1,0 +1,13 @@
+
+public class A6
+{
+	A6()
+	{
+		test();
+	}
+	
+	void test()
+	{
+		System.out.println("abhi");
+	}
+}

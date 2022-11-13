@@ -1,0 +1,41 @@
+package inheritance;
+
+class C // extends Object if we are calling super statemnent
+{
+	int i ;
+	static int  j;
+	
+	C()
+	{
+		// super(); this call to C class object 
+		System.out.println("i am constructor");
+	}
+	
+	static
+	{
+		
+		System.out.println("i am Sib");
+	}
+	
+	
+	{
+	
+		System.out.println("i am iib");
+	}
+	
+	
+}
+public class D extends C
+{
+	D (int i) 
+	{
+		// intrernally here super();
+		System.out.println("D class Construtor");
+	}
+	public static void main(String[] args)
+	{
+		D d1 = new D(1);
+		System.out.println(d1.i);
+		System.out.println(D.j);
+	}
+}

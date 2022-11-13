@@ -1,0 +1,26 @@
+package inheritance_practice;
+ class Child
+{
+	void parent()
+	{
+		System.out.println("this is parent");
+	}
+}
+class Employee extends Child
+{
+		void child()
+		{
+			System.out.println("this is child");
+		}
+		
+		public static void main(String[] args) 
+		{
+			Child ch = new Child();
+			ch.parent();
+			System.out.println("---------");
+			Employee em = new Employee();
+			em.child();
+			System.out.println("i am parent");
+			ch.parent();
+		}
+}

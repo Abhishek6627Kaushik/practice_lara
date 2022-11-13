@@ -1,0 +1,13 @@
+// Write a program to find how many objects created to the current class
+public class Q6 
+{
+	int count;
+	
+	{
+		count++
+	}
+	public static void main(String[] args) 
+	{
+		
+	}
+}

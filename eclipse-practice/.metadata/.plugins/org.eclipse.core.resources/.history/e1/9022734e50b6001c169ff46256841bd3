@@ -1,0 +1,45 @@
+package inheritance_practice;
+
+import java.util.*;u
+ class Child
+{
+	 int salary;
+	 String name= "";
+	void parent(int i , String s1)
+	{
+		Scanner sc = new Scanner (System.in);
+			i = sc.nextInt();
+			s1= sc.nextLine();
+		System.out.println("this is parent");
+	}
+	
+	static void parent1()
+	{
+		 System.out.println("Hii i am static parent ");
+	}
+}
+class Employee extends Child
+{
+		void child()
+		{
+			System.out.println("this is child");
+		}
+		
+		static void child1()
+		{
+			System.out.println("hii i am static child ");
+		}
+		public static void main(String[] args) 
+		{
+			Child ch = new Child();
+			ch.parent();
+			ch.salary = 1000;
+			System.out.println("---------"+ch.salary);
+			Employee em = new Employee();
+			em.child();
+			child1();
+			System.out.println("i am parent");
+			em.parent();
+			Child.parent1();
+		}
+}

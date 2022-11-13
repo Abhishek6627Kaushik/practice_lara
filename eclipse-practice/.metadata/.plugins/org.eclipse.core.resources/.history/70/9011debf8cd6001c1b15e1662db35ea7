@@ -1,0 +1,16 @@
+package app27ObjectAndRefranceVariables;
+
+public class A1 
+{
+	int i;
+	
+	{
+		a.i= 10;
+	}
+	public static void main(String[] args) 
+	{
+		A1 a = new A1();
+		
+		a.i= 10;
+	}
+}

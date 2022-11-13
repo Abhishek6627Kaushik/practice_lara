@@ -1,0 +1,6 @@
+package inheritance_practice;
+
+public class Employee 
+{
+	static int i ;
+}

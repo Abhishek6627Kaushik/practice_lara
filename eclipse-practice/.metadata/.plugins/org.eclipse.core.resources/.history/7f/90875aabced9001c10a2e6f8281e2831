@@ -1,0 +1,14 @@
+// develop a sub class to A and override test method
+
+
+class A 
+{
+	A (int  i  , int j)
+	{
+		System.out.println("from a Constructoir");
+	}
+}
+public class Q7 
+{
+	
+}

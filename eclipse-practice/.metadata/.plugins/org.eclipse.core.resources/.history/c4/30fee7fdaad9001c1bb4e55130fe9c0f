@@ -1,0 +1,13 @@
+
+abstract class A
+{
+	
+}
+
+public class Abs 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

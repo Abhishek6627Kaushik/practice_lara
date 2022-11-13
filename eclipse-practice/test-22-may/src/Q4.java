@@ -1,0 +1,14 @@
+//what is the compile time error while using a variable in the initializer to write a new value but before jvm notifying
+
+public class Q4
+{
+	static 
+	{
+		System.out.println(i);
+	}
+	static int i;
+	public static void main(String[] args)
+	{
+		System.out.println("done");
+	}
+}

@@ -1,0 +1,11 @@
+package array_logical_coding;
+
+public class GHH
+{
+	public static void main(String[] args)
+	{
+		int[] array = {1,2,3,5,4,6,7,9,64};
+		int[] array1= {4,6,7,9,5};
+		int dup =0;
+	}
+}

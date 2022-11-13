@@ -1,0 +1,15 @@
+package array_logical_coding;
+
+public class A 
+{
+	public static void main(String[] args) 
+	{
+			int  i = 16;
+			
+			int a = (i/10);
+			System.out.println(a);
+			int one = (i%10);
+			int  b= (one); 
+		System.out.println(one);
+	}
+}

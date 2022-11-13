@@ -1,0 +1,39 @@
+package inheritance_practice;
+ class Child
+{
+	 int salary;
+	 String name= "";
+	void parent()
+	{
+		System.out.println("this is parent");
+	}
+	
+	static void parent1()
+	{
+		 System.out.println("Hii i am static parent ");
+	}
+}
+class Employee extends Child
+{
+		void child()
+		{
+			System.out.println("this is child");
+		}
+		
+		static void child1()
+		{
+			System.out.println("hii i am static child ");
+		}
+		public static void main(String[] args) 
+		{
+			Child ch = new Child();
+			ch.parent();
+			System.out.println("---------");
+			Employee em = new Employee();
+			em.child();
+			child1();
+			System.out.println("i am parent");
+			em.parent();
+			Child.parent1();
+		}
+}

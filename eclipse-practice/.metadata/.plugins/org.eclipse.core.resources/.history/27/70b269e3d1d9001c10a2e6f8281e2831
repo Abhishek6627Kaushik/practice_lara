@@ -1,0 +1,14 @@
+// write a program to demonstrate co-variant?
+class I
+{
+	
+}
+class J  extends I
+{
+	
+}
+
+public class Q9 
+{
+	
+}

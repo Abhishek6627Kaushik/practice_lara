@@ -1,0 +1,8 @@
+package array_logical_coding;
+// Remove 1st 2nd elements And Last 2nd elements
+public class Reomve1st2ndAndlast2nd 
+{
+	public static void main(String[] args) {
+		
+	}
+}

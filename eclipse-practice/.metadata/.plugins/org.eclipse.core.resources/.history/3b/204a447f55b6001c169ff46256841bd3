@@ -1,0 +1,17 @@
+package inheritance_practice;
+
+public class ConstrutorExamp 
+{
+	int id = 1 ;// by using  refrance variable
+	String name = "abhsihek";// we can not initilze object by using refrance varriable
+	// because of agr hum another object create karte hain to emp_id same  hojaayegi
+	public static void main(String[] args) 
+	{
+		ConstrutorExamp  ce = new ConstrutorExamp();
+		ConstrutorExamp  ce2 = new ConstrutorExamp();
+		
+		System.out.println(" "+ce.id+", "+ce.name);
+		System.out.println(" "+ce2.id+", "+ce2.name);
+		
+	}
+}

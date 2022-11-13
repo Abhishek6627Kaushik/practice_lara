@@ -1,0 +1,11 @@
+package array_logical_coding;
+
+public class Test 
+{
+	public static void main(String[] args) 
+	{
+		Object[] a = {1, "test", 'c',7,8,6,7,6,2.55,88,99,"abc"};
+		
+		System.out.println(nums);
+	}
+}

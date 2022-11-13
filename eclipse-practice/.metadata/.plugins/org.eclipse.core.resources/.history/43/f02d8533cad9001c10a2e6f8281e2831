@@ -1,0 +1,6 @@
+
+public class Q4
+{
+	static int i = j;
+	static int j =k;
+}

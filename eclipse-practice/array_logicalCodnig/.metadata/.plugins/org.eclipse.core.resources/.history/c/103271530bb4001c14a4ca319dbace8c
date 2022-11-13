@@ -1,0 +1,25 @@
+package array_logical_coding;
+
+import java.util.Arrays;
+import java.util.Iterator;
+
+public class Reverse
+{
+	public static void main(String[] args)
+	{
+		String [] e={"hello","again"};
+	
+		//String s1  = "hello";
+		//System.out.println(Arrays.toString(s1));
+		for (int i = 0; i < e.length; i++) {
+			if( e[i]!=null)
+			{
+		//for (int j = ; j < e.length; j++) 
+			
+		
+		for ( i = e.length-1; i >=0;  i--) 
+		{
+			   System.out.print(Arrays.toString(e));
+		}}}
+	}
+}

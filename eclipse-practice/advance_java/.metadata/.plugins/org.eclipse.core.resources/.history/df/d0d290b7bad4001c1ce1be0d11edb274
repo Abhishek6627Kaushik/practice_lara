@@ -1,0 +1,13 @@
+package classroom;
+
+public class Z6 
+{
+	public static void main(String[] args) 
+	{
+		String s1 ="Hello to all";
+		s1.replace('h','w');
+		System.out.println(s1);
+		s1 =s1.replace('h', 'w');
+		System.out.println(s1);
+	}
+}

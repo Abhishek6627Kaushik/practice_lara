@@ -1,0 +1,13 @@
+// write a program to demonstrate co-variant?
+class I
+{
+	
+}
+class J extends I
+{
+	return null
+}
+public class Q9 
+{
+	
+}

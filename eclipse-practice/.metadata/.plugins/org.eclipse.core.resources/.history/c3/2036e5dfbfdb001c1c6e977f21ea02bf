@@ -1,0 +1,9 @@
+package array_logical_coding;
+
+public class Remove 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

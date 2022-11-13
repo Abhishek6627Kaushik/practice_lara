@@ -1,0 +1,15 @@
+package app27ObjectAndRefranceVariables;
+
+public class A1 
+{
+	int i;
+	
+	static
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+		A1 a = new A1();
+	}
+}

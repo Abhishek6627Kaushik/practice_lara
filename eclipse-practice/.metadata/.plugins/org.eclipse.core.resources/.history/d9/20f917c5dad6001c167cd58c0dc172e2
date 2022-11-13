@@ -1,0 +1,20 @@
+package string;
+
+public class Q1 
+{
+	public static void main(String[] args) 
+	{
+		Stirng s = "jekl af";
+		StringBuffer s  =  new StringBuffer("hello World");
+		
+		s.reverse();
+		System.out.println(s);
+		
+		
+		for(int i =s.length(); i>0 ; i--)
+		{
+			//St
+		}	
+		
+	}
+}

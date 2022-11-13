@@ -1,0 +1,21 @@
+// write a program to demonstrate co-variant?
+class I
+{
+	J test();
+}
+class J extends I
+{
+	J test()
+	{
+		System.out.println("done");
+	}
+}
+class K
+
+{
+	
+}
+public class Q9 
+{
+	
+}
